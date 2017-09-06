@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -21,7 +16,10 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Servlet en donde conecta a la base de datos y verifica si existe el registro
- * @author Alumno
+ * @author Medina Villalpando Josue de Jesus
+ * @version 1.0
+ * @dsince 27/08/17
+
  */
 @WebServlet(urlPatterns = {"/Ingresoo"})
 public class Ingresoo extends HttpServlet {
